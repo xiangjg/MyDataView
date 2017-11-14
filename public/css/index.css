@@ -1,0 +1,126 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    background: url('https://datav.oss-cn-hangzhou.aliyuncs.com/uploads/images/163de850e78c6431461139b714e333f4.jpg') 0% 0% / 100%;
+    transform: scale(0.850521);
+    transform-origin: left top 0px;
+    font-weight: normal;
+    font-family: 'Microsoft Yahei';
+    overflow-y: inherit;
+}
+
+.main {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.left-top-title {
+    left: 8px;
+    top: 112px;
+    width: 483px;
+    height: 30px;
+    z-index: 34;
+    margin: 0px !important;
+    position: absolute;
+}
+
+.left-top-title div {
+    width: 483px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list-title {
+    width: 128px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.wraper {
+    margin-top: 20px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.index {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 37%;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.index-bg {
+    background-color: #44d3e4;
+    width: 28.200000000000003px;
+    height: 28.200000000000003px;
+    line-height: 28.200000000000003px;
+    vertical-align: middle;
+    margin: auto;
+    border-radius: 14.100000000000001px;
+    text-align: center;
+}
+
+.row-content {
+    margin-top: 10px;
+    height: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    background-color: rgba(30, 67, 81, 0);
+}
+
+.cell-content {
+    width: 92%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    background-color: transparent;
+    font-family: Microsoft Yahei;
+    font-size: 17px;
+    color: #ebe213;
+    font-weight: normal;
+}
+
+.number {
+    color: rgb(247, 94, 2);
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 200px;
+    height: 60px;
+    width: 800px;
+    left: 650px
+}
+
+.number span {
+    font-size: 50px;
+    vertical-align: super;
+    background: rgba(228, 69, 71, 0.6);
+}
